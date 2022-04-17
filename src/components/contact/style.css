@@ -1,20 +1,43 @@
-.contact {
-  height: 1000px;
-  background-color: teal;
+.contactcontainer {
+  background-color: #2F004F;
+  height:1000px;
 }
 
 span {
+  display: table;
+  margin: 0 auto;
+  font-size: 36pt;
   color: white;
 }
 
-.contact #contact-form {
-  height:100px;
-  background-color: blueviolet;
-  color: white;
+.contactform {
+  
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
 }
 
-.contact #user-message {
-  height:100px;
-  background-color: hotpink;
+.usermessage {  
+  flex:1;
+  text-align: right;
+  margin-right: 25px;
+}
+textarea {
+  background-color: white;
+  width: 75%;
+  height: 100%;
+  padding: 20px;
+}
+    
+
+.userinfo {
+  flex:1;
+  text-align: left;
+  padding-left:50px;
 }
 
+button {
+  cursor: pointer;
+  margin-top: 25px;
+  align-self: center;
+}
