@@ -1,0 +1,20 @@
+.contact {
+  height: 1000px;
+  background-color: teal;
+}
+
+span {
+  color: white;
+}
+
+.contact #contact-form {
+  height:100px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.contact #user-message {
+  height:100px;
+  background-color: hotpink;
+}
+
